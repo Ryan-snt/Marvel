@@ -1,0 +1,139 @@
+/* Estilo Personalizado - Tema PMarvel */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f4f4f9; 
+    margin: 20px; 
+    color: #333; 
+}
+
+h1 { 
+    color: #e23636; 
+    border-bottom: 3px solid #202020; 
+    padding-bottom: 10px; 
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #202020;
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+    background: #ffffff; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    max-width: 500px;
+}
+
+label { 
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 8px; 
+    color: #202020;
+}
+
+input[type="text"], select { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    font-size: 15px;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #e23636;
+    outline: none;
+}
+
+.card-candidato { 
+    margin-top: 20px; 
+    background-color: #202020; 
+    color: #ffffff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    width: 100%; 
+    max-width: 500px; 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
+    border-top: 5px solid #e23636;
+}
+
+.card-candidato h3 { 
+    color: #e23636; 
+    margin-top: 0; 
+}
+
+.card-candidato img { 
+    width: 160px; 
+    height: 160px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    border: 3px solid #ffffff; 
+    display: block; 
+    margin-top: 15px; 
+    background-color: #fff;
+}
+
+.rules { color: #555; font-size: 0.85em; display: block; margin-top: 5px; font-style: italic; }
+.erro { color: #e23636; font-size: 0.95em; display: block; margin-top: 5px; font-weight: bold; }
+.sucesso { color: #28a745; font-size: 0.95em; display: block; margin-top: 5px; font-weight: bold; }
+
+.actions { 
+    margin-top: 20px; 
+    display: flex; 
+    gap: 15px; 
+    flex-wrap: wrap;
+}
+
+button { 
+    padding: 12px 20px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-primary { background-color: #e23636; color: white; }
+.btn-primary:hover { background-color: #c02b2b; }
+
+.btn-success { background-color: #28a745; color: white; }
+.btn-success:hover { background-color: #218838; }
+
+ul#listaRegistrados { 
+    list-style-type: none; 
+    padding: 0; 
+    max-width: 600px;
+}
+
+ul#listaRegistrados li { 
+    background: #fff; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border-radius: 8px; 
+    border-left: 6px solid #e23636; 
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+ul#listaRegistrados li img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #202020;
+}
+
+ul#listaRegistrados li div {
+    display: flex;
+    flex-direction: column;
+}
+
+ul#listaRegistrados li div strong {
+    font-size: 1.1em;
+    color: #202020;
+}
